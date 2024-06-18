@@ -42,7 +42,7 @@ main {
 
 #apps {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   box-sizing: border-box;
   width: 100%;
   gap: 20px;
@@ -54,6 +54,8 @@ main {
   flex-wrap: wrap;
   flex-direction: row;
   box-sizing: border-box;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 .game-button-long,
