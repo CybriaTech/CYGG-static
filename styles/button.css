@@ -73,6 +73,11 @@ main {
   height: 175px;
 }
 
+#row1norm {
+  display: flex;
+  flex-direction: row;
+}
+
 .game-button-long:hover,
 .game-button-normal:hover {
   border: 4px solid #4494FC;
