@@ -48,13 +48,11 @@ main {
   gap: 20px;
 }
 
-#row1normal,
-#row2normal {
+#row1normal {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   box-sizing: border-box;
-  width: 100%;
 }
 
 .game-button-long,
