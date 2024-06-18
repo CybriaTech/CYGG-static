@@ -54,6 +54,7 @@ main {
   flex-wrap: wrap;
   flex-direction: row;
   box-sizing: border-box;
+  width: 100%;
 }
 
 .game-button-long,
