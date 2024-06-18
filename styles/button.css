@@ -76,6 +76,7 @@ main {
 #row1norm {
   display: flex;
   flex-direction: row;
+  position: relative;
 }
 
 .game-button-long:hover,
