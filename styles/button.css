@@ -71,6 +71,7 @@ main {
 .game-button-normal {
   width: 325px;
   height: 175px;
+  flex-direction: row;
 }
 
 .game-button-long:hover,
