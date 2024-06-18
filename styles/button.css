@@ -64,7 +64,6 @@ main {
 
 .game-button-long {
   width: 500px;
-  grid-column: span 2;
   height: 450px;
 }
 
