@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.game-title-long,
+.game-title-normal {
+  flex: 1;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  display: inline-flex;
+  flex-direction: column;
+  position: absolute;
+  text-align: left;
+  bottom: 10px;
+  left: 10px;
+  margin: 0;
+  white-space: normal;
+  width: 100%;
+  padding: 0;
+  opacity: 0;
+  color: white;
+  font-weight: bold;
+  text-shadow: 0 0 25px #000;
+  pointer-events: none;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  z-index: 1;
+}
+
+.game-title-normal {
+  font-size: 1.4em;
+}
+
+.game-title-long {
+  font-size: 2.9em;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#apps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  gap: 20px;
+}
+
+.game-button-long,
+.game-button-normal {
+  overflow: hidden;
+  border-radius: 20px;
+  margin: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 4px solid transparent;
+}
+
+.game-button-long {
+  width: 500px;
+  height: 450px;
+}
+
+.game-button-normal {
+  width: 325px;
+  height: 175px;
+}
+
+.game-button-long:hover,
+.game-button-normal:hover {
+  border: 4px solid #4494FC;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.game-img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+  height: 100%;
+  transition: filter 0.3s ease, opacity 0.3s ease;
+}
+
+.game-button-long:hover .game-title-long {
+  opacity: 1;
+}
+
+.game-button-normal:hover .game-title-normal {
+  opacity: 1;
+}
+
+.game-img:hover {
+  filter: brightness(0.8);
+}
+
+.game-button-long:hover {
+  opacity: 1;
+}
+
+.game-button-normal:hover {
+  opacity: 1;
+}
