@@ -75,7 +75,10 @@ main {
 
 #row1norm {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
   margin: 10px;
 }
 
