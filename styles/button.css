@@ -41,10 +41,9 @@ main {
 }
 
 #apps {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-start;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
+  box-sizing: border-box;
   width: 100%;
   gap: 20px;
 }
