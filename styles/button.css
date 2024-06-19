@@ -43,6 +43,7 @@ main {
 #apps {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   box-sizing: border-box;
   width: 100%;
   gap: 20px;
@@ -51,6 +52,7 @@ main {
 #row1normal,
 #row2normal {
   display: flex;
+  width: 100%;
   flex-wrap: wrap;
   flex-direction: row;
   box-sizing: border-box;
