@@ -42,7 +42,7 @@ main {
 
 #apps {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   box-sizing: border-box;
   width: 100%;
   gap: 20px;
