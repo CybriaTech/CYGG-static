@@ -53,8 +53,9 @@ main {
 #row2normal {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: column;
   width: 100%;
+  align-items: center;
   justify-content: center;
   box-sizing: border-box;
 }
