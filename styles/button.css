@@ -54,6 +54,9 @@ main {
   flex-wrap: wrap;
   flex-direction: row;
   box-sizing: border-box;
+}
+
+#row2normal {
   justify-content: center;
   margin-top: 20px;
 }
