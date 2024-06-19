@@ -55,11 +55,6 @@ main {
   flex-direction: row;
 }
 
-#row2normal {
-  justify-content: center;
-  margin-top: 20px;
-}
-
 .game-button-long,
 .game-button-normal {
   overflow: hidden;
