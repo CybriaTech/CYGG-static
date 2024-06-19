@@ -45,11 +45,11 @@ main {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  box-sizing: border-box;
   gap: 20px;
 }
 
-#row1normal,
-#row2normal {
+#row1normal {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
