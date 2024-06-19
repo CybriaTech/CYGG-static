@@ -52,7 +52,6 @@ main {
 #row1normal,
 #row2normal {
   display: flex;
-  width: 100%;
   flex-wrap: wrap;
   flex-direction: row;
   box-sizing: border-box;
