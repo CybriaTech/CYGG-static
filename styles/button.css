@@ -53,7 +53,7 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 20px;
+  gap: 12px;
 }
 
 #row1normal,
@@ -73,7 +73,7 @@ main {
 }
 
 #row2normal {
-  margin-bottom: 20px;
+  margin: 0;
   align-items: flex-start;
 }
 
