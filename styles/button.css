@@ -101,7 +101,7 @@ main {
 .game-button-long {
   width: 500px;
   height: 400px;
-  margin-left: 0;
+  margin-right: 10px;
 }
 
 .game-button-normal {
