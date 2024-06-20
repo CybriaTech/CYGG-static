@@ -74,6 +74,7 @@ main {
 }
 
 #row1normal {
+  margin: 0;
   align-items: flex-start;
 }
 
