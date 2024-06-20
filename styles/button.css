@@ -43,7 +43,7 @@ main {
 
 #apps {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 100%;
   box-sizing: border-box;
   gap: 20px;
