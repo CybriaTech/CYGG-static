@@ -2,7 +2,8 @@
 
 .game-title-long,
 .game-title-normal,
-.game-title-small {
+.game-title-small,
+.game-title-wide {
   flex: 1;
   font-family: 'Roboto', 'Arial', sans-serif;
   display: inline-flex;
@@ -36,6 +37,10 @@
   font-size: 1.5em;
 }
 
+.game-title-wide {
+  font-size: 2.3em;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -62,7 +67,8 @@ main {
 }
 
 #row1normal,
-#row2normal {
+#row2normal,
+#row3wide {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -83,9 +89,15 @@ main {
   align-items: flex-start;
 }
 
+#row3wide {
+  margin: 0;
+  align-items: flex-start;
+}
+
 .game-button-long,
 .game-button-normal,
-.game-button-small {
+.game-button-small,
+.game-button-wide {
   overflow: hidden;
   border-radius: 20px;
   margin: 10px;
@@ -114,9 +126,15 @@ main {
   height: 185px;
 }
 
+.game-button-wide {
+  width: 25%;
+  height: 185px;
+}
+
 .game-button-long:hover,
 .game-button-normal:hover,
-.game-button-small:hover {
+.game-button-small:hover,
+.game-button-wide:hover{
   border: 4px solid #4494FC;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
@@ -142,6 +160,10 @@ main {
   opacity: 1;
 }
 
+.game-button-wide:hover .game-title-wide {
+  opacity: 1;
+}
+
 .game-img:hover {
   filter: brightness(0.8);
 }
@@ -155,5 +177,9 @@ main {
 }
 
 .game-button-small:hover {
+  opacity: 1;
+}
+
+.game-button-wide:hover {
   opacity: 1;
 }
