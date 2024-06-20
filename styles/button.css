@@ -127,8 +127,8 @@ main {
 }
 
 .game-button-wide {
-  width: 25%;
-  height: 185px;
+  width: 25vh;
+  height: 225px;
 }
 
 .game-button-long:hover,
