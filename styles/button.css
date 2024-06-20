@@ -32,6 +32,10 @@
   font-size: 2.9em;
 }
 
+.game-title-small {
+  font-size: 1.3em;
+}
+
 main {
   display: flex;
   flex-direction: column;
