@@ -131,6 +131,10 @@ main {
   opacity: 1;
 }
 
+.game-button-small:hover .game-title-small {
+  opacity: 1;
+}
+
 .game-img:hover {
   filter: brightness(0.8);
 }
@@ -140,5 +144,9 @@ main {
 }
 
 .game-button-normal:hover {
+  opacity: 1;
+}
+
+.game-button-small:hover {
   opacity: 1;
 }
