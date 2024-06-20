@@ -108,7 +108,8 @@ main {
 }
 
 .game-button-long:hover,
-.game-button-normal:hover {
+.game-button-normal:hover,
+.game-button-small:hover {
   border: 4px solid #4494FC;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
