@@ -78,7 +78,8 @@ main {
 }
 
 .game-button-long,
-.game-button-normal {
+.game-button-normal,
+.game-button-small {
   overflow: hidden;
   border-radius: 20px;
   margin: 10px;
