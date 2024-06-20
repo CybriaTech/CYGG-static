@@ -49,6 +49,13 @@ main {
   gap: 20px;
 }
 
+#row1-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
 #row1normal,
 #row2normal {
   display: flex;
@@ -61,8 +68,13 @@ main {
   box-sizing: border-box;
 }
 
+#row1normal {
+  align-items: flex-start;
+}
+
 #row2normal {
   margin-top: 20px;
+  align-items: flex-start;
 }
 
 .game-button-long,
