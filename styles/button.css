@@ -68,7 +68,8 @@ main {
 
 #row1normal,
 #row2normal,
-#row3wide {
+#row3wide,
+#row4normal {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -90,6 +91,11 @@ main {
 }
 
 #row3wide {
+  margin: 0;
+  align-items: flex-start;
+}
+
+#row4normal {
   margin: 0;
   align-items: flex-start;
 }
