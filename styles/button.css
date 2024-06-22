@@ -119,8 +119,8 @@ main {
 .game-button-long {
   width: 470px;
   height: 400px;
-  margin-right: 0;
-  margin-left: auto;
+  margin-right: auto;
+  margin-left: 0;
 }
 
 .game-button-normal {
@@ -195,8 +195,8 @@ main {
   .game-button-long {
     width: 100%;
     height: auto;
-    margin-left: auto;
-    margin-right: 0;
+    margin-left: 0;
+    margin-right: auto;
   }
 
   .game-button-normal,
