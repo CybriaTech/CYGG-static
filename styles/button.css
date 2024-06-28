@@ -129,10 +129,11 @@ main {
 
 .game-button-long {
   box-sizing: border-box;
-  width: 470px;
+  width: calc(66% - 20px);
+  flex-basis: calc(66% - 20px);
   align-self: flex-end;
   margin-left: auto;
-  height: calc(33% - 100px);
+  height: 400px;
 }
 
 .game-button-normal {
