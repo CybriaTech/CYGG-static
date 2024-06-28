@@ -132,7 +132,7 @@ main {
   width: 470px;
   align-self: flex-end;
   margin-left: auto;
-  height: 400px;
+  height: calc(33% - 100px);
 }
 
 .game-button-normal {
