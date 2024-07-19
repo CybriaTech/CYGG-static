@@ -22,7 +22,7 @@ header {
 
 #logo img {
   height: 55px;
-  margin-left: 1.2%;
+  margin-right: 10px;
   cursor: pointer;
 }
 
@@ -50,6 +50,7 @@ header {
 .search-bar-top {
   color: #ffffff;
   font-size: 1.7em;
+  margin-left: 1.2%;
   width: 100%;
   height: 56px;
   border-radius: 0 10px 10px 0;
