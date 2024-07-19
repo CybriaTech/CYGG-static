@@ -47,10 +47,14 @@ header {
   width: 450px;
 }
 
+.search-bar-top,
+.search-enter-top {
+  margin-left: 1.2%;
+}
+
 .search-bar-top {
   color: #ffffff;
   font-size: 1.7em;
-  margin-left: 1.2%;
   width: 100%;
   height: 56px;
   border-radius: 0 10px 10px 0;
