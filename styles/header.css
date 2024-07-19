@@ -47,11 +47,6 @@ header {
   width: 450px;
 }
 
-.search-bar-top,
-.search-enter-top {
-  margin-left: 1.2%;
-}
-
 .search-bar-top {
   color: #ffffff;
   font-size: 1.7em;
