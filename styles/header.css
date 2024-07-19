@@ -31,12 +31,6 @@ header {
   font-size: 2em;
 }
 
-#header-left-too {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-
 #form-top {
   align-items: center;
   justify-content: space-between;
